@@ -41,12 +41,14 @@
     width: 20%;
     height: 400px;
     background: cornflowerblue;
+    display: inline-block;
 }
 
 .right {
     width: 80%;
     height: 400px;
     background: coral;
+    display: inline-block;
 }
 
 .footer {
