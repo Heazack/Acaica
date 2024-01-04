@@ -5,5 +5,11 @@
 }
 
 .nickname {
-    display: inline;
+    display: inline-block;
+    vertical-align: ;
+}
+
+h3 {
+    width: 100%;
+    margin-left: 20px;
 }
