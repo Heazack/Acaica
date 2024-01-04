@@ -1,37 +1,29 @@
-.profile {
-    width: 50px;
-    margin-left: 20px;
-    margin-top: 20px;
-    display: inline-block;
+.blog-content {
+    width: 80%;
+    height: 200px;
+    float: left;
 }
 
-.information {}
-
-.nickname {
-    display: inline;
-    font-size: 15px;
-}
-
-.time {
-    font-size: 10px;
-    display: inline;
-}
-
-p {
-    line-height: 1px;
-}
-
-h3 {
-    margin-left: 20px;
-}
-
-.content {
-    font-size: 13px;
-    margin-left: 20px;
-}
-
-.image {
+.blog-img {
     width: 20%;
-    height: 20px;
-    display: inline;
+    height: 200px;
+    float: left;
+}
+
+.blog-profile {
+    width: 50px;
+    display: block;
+    float: left;
+}
+
+.blog-name {
+    float: left;
+    margin: 5px;
+}
+
+.container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
