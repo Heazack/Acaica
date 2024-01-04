@@ -1,42 +1,15 @@
-.blog-content {
-    width: 80%;
-    height: 200px;
-    float: left;
+.main-background {
+    width: 100%;
+    height: 500px;
+    background-image: url(shoes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1px;
 }
 
-.blog-img {
-    width: 20%;
-    height: 200px;
-    float: left;
-}
-
-.blog-profile {
-    width: 50px;
-    display: block;
-    float: left;
-}
-
-.blog-name {
-    float: left;
-    margin: 5px;
-}
-
-.container {
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.navbar li {
-    display: inline-block;
-    width: 60px;
-    text-align: center;
-    background: #eee;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-.navbar a {
-    font-size: 16px;
-    text-decoration: none;
+.main-title {
+    color: white;
+    font-size: 40px;
+    margin-top: 100px;
 }
