@@ -1,15 +1,35 @@
 .profile {
-    width: 40px;
+    width: 50px;
     margin-left: 20px;
     margin-top: 20px;
+    display: inline-block;
 }
 
 .nickname {
-    display: inline-block;
-    vertical-align: ;
+    display: inline;
+    font-size: 15px;
+}
+
+.time {
+    font-size: 10px;
+    display: inline;
+}
+
+p {
+    line-height: 1px;
 }
 
 h3 {
-    width: 100%;
     margin-left: 20px;
+}
+
+.content {
+    font-size: 13px;
+    margin-left: 20px;
+}
+
+.image {
+    width: 30px;
+    height: 20px;
+    display: inline;
 }
