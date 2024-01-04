@@ -6,6 +6,9 @@
     background-repeat: no-repeat;
     background-position: center;
     padding: 1px;
+    color: white;
+    text-align: center;
+    position: relative;
 }
 
 .main-title {
@@ -20,9 +23,17 @@
     color: white;
     font-size: 20px;
     margin-left: 20px;
-    margin-top: ;
 }
 
-button {
-    margin-top: 330px;
+.main-button {
+    padding: 15px;
+    font-size: 20px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 150px;
 }
