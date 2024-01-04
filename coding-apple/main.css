@@ -5,6 +5,8 @@
     display: inline-block;
 }
 
+.information {}
+
 .nickname {
     display: inline;
     font-size: 15px;
@@ -29,7 +31,7 @@ h3 {
 }
 
 .image {
-    width: 30px;
+    width: 20%;
     height: 20px;
     display: inline;
 }
