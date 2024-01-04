@@ -1,3 +1,13 @@
+div {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+
+
 .main-background {
     width: 100%;
     height: 500px;
@@ -28,7 +38,7 @@
 .main-button {
     padding: 15px;
     font-size: 20px;
-    background-color: white;
+    background: white;
     border: none;
     border-radius: 5px;
     position: absolute;
@@ -38,23 +48,27 @@
     width: 150px;
 }
 
-.box {
-    width: 700px;
+.explain-box {
+    width: 80%;
+    max-width: 600px;
     margin: auto;
     padding: 20px;
     text-align: center;
-    border-color: #eee;
+    background-color: #eee;
     position: relative;
     top: -40px;
 }
 
-.box-text {
-    color: black;
-    font-size: 13px;
-    margin-top: 20px;
+input[type=email] {
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
-.boxob {
-    text-align: center;
-    background-color: gray;
+.text-input {
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
 }

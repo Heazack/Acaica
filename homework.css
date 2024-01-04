@@ -1,0 +1,11 @@
+div {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.title {
+    margin-left: 30px;
+}
