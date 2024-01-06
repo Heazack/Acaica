@@ -51,3 +51,27 @@ body {
     width: 280px;
     height: 100px;
 }
+
+.button {
+    margin-top: 8px;
+}
+
+.check {
+    margin-left: 30px;
+    display: inline-block;
+    color: grey;
+}
+
+.subscribe {
+    font-size: 13px;
+    display: inline;
+}
+
+.sumbit {
+    background-color: orange;
+    margin-left: 100px;
+    width: 100px;
+    height: 25px;
+    font-size: 12px;
+    color: white;
+}
