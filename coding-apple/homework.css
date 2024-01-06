@@ -1,77 +1,35 @@
-div {
-    box-sizing: border-box;
-}
-
 body {
-    margin: 0px;
+    background: skyblue;
 }
 
-.title {
-    margin-left: 30px;
+table,
+th,
+tr,
+td {
+    vertical-align: middle;
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-radius: 5px;
+    background-color: white;
 }
 
-.email {
-    margin-left: 30px;
+th,
+td {
+    padding: 5px;
 }
 
-.email-typing {
-    width: 280px;
-    height: 25px;
-    border-radius: 3px;
+.item {
+    vertical-align: middle;
 }
 
-.firstname {
-    margin-left: 30px;
-    width: 20%;
-    display: inline-block;
+.amount {
+    text-align: right;
 }
 
-.firstname-typing {
-    width: 130px;
-    height: 25px;
-    border-radius: 3px;
+.price {
+    text-align: left;
 }
 
-.lastname {
-    margin-left: 30px;
-    display: inline-block;
-}
-
-.lastname-typing {
-    width: 130px;
-    height: 25px;
-    border-radius: 3px;
-}
-
-.message {
-    margin-left: 30px;
-}
-
-.message-typing {
-    width: 280px;
-    height: 100px;
-}
-
-.button {
-    margin-top: 8px;
-}
-
-.check {
-    margin-left: 30px;
-    display: inline-block;
-    color: grey;
-}
-
-.subscribe {
-    font-size: 13px;
-    display: inline;
-}
-
-.sumbit {
-    background-color: orange;
-    margin-left: 100px;
-    width: 100px;
-    height: 25px;
-    font-size: 12px;
-    color: white;
+.total {
+    text-align: left;
 }
