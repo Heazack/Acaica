@@ -33,3 +33,8 @@ td {
 .total {
     text-align: left;
 }
+
+.button {
+    background-color: blue;
+    color: white;
+}
