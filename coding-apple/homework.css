@@ -38,8 +38,49 @@ td {
 }
 
 .button {
-    inline-size: ;
     background-color: blue;
     color: white;
     border-radius: 5px;
+}
+
+.btn {
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: coral;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: chocolate;
+}
+
+.btn:focus {
+    background-color: grey;
+}
+
+.btn:active {
+    background-color: brown;
+}
+
+.test {
+    font-size: 20px;
+}
+
+.test:focus {
+    border: 2px solid red;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:link {
+    color: violet;
+}
+
+.link:visited {
+    color: black;
 }

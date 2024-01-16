@@ -1,8 +1,14 @@
-td,
-th {
-    border: 2px solid black;
+.main-btn {
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
 }
 
-table {
-    border-collapse: collapse;
+.bg-red {
+    background: red;
+}
+
+.bg-blue {
+    background: blue;
 }
