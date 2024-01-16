@@ -7,9 +7,8 @@ th,
 tr,
 td {
     vertical-align: middle;
-    border: 1px solid black;
     border-collapse: collapse;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: white;
 }
 
@@ -34,7 +33,13 @@ td {
     text-align: left;
 }
 
+.dasd {
+    width: 125px;
+}
+
 .button {
+    inline-size: ;
     background-color: blue;
     color: white;
+    border-radius: 5px;
 }
